@@ -1,0 +1,43 @@
+body {
+   font-family: Arial, sans-serif;
+   background: linear-gradient(to right, #ff7e5f, #feb47b);
+   text-align: center;
+   padding: 20px;
+}
+ .container {
+ 	background: white;
+ 	padding: 30px;
+ 	max-width: 500px;
+ 	margin: auto;
+ 	border-radius: 20px;
+ 	box-shadow: 0 px 0px 10px rgba(0, 0, 0, 0.1);
+ }
+ input {
+ 	width: 100%;
+ 	padding: 10px;
+ 	margin: 10px 0;
+ 	border: 1 px solid #ddd;
+ 	border-radius: 5px;
+ }
+ button {
+ 	background: #28a745;
+ 	color: white;
+ 	border: none;
+ 	padding: 10 px;
+ 	width: 100%;
+ 	margin-top: 10px;
+ 	cursor: pointer;
+ }
+ button.hover {
+ 	background: #218838;
+ }
+ #restoreData {
+ 	background: #007bff;
+ }
+  #restoreData:hover {
+ 	background: #0056b3;
+ }
+ #responseMessage {
+ 	margin-top: 10px;
+ 	font-weight: bold;
+ }
